@@ -19,7 +19,7 @@ Needs the conservation status visualisations added to the infobox.
 
 ## 3D
 
-3D models are being created in Blender. Then exported as GLTF and loaded using React Three Fiber (R3F).
+3D models are being created in Blender. Then exported as GLTF and loaded using React Three Fiber (R3F). The lighting in 3D widget needs work so that the models look clearer.
 
 ## Observation data
 
