@@ -16,7 +16,7 @@ Early build is still a bit rough around the edges:
 
 ## Observation data
 
-What I really want here is proper distribution maps. This is the trickier part, however, as collecting necessary data for distribution maps is currently difficult. I have made an example file for European spruce (*Picea abies*), but have not yet gathered this information for other species.
+What I really want here are proper distribution maps. This is the trickier part, however, as collecting necessary data for distribution maps is currently difficult. I have made an example file for European spruce (*Picea abies*), but have not yet gathered this information for other species.
 
 As a current solution the visualisation is about the number of observations. This can skew the data towards the more populous areas such as Uusimaa region.
 
