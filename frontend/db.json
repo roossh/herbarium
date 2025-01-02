@@ -1,0 +1,70 @@
+{
+    "plants": [
+        {
+            "name": "Norway spruce",
+            "latName": "Picea abies",
+            "id": 1,
+            "model": "/plantmodels/norwayspruce_stylised.glb",
+            "flowerStart": 5,
+            "flowerEnd": 7,
+            "conStatus": "LC",
+            "obs": {
+                "U": 8414,
+                "EH": 10742,
+                "Kn": 9125,
+                "PK": 7520,
+                "V": 6758,
+                "ES": 6184,
+                "PS": 5619,
+                "Ks": 5513,
+                "PH": 4651,
+                "KP": 4573,
+                "PeP": 4449,
+                "St": 3811,
+                "OP": 3192,
+                "SoL": 3058,
+                "EP": 2796,
+                "EK": 2437,
+                "KiL": 2372,
+                "A": 1070,
+                "LK": 244,
+                "InL": 191,
+                "EnL": 142
+            },
+            "source": "Laji.fi (Kastikka Ark)"
+        },
+        {
+            "name": "Silver birch",
+            "latName": "Betula pendula",
+            "id": 2,
+            "model": "/plantmodels/missing.glb",
+            "flowerStart": 4,
+            "flowerEnd": 5,
+            "conStatus": "LC",
+            "obs": {
+                "U": 4409,
+                "EH": 4651,
+                "Kn": 1558,
+                "PK": 2172,
+                "V": 3181,
+                "ES": 2083,
+                "PS": 982,
+                "Ks": 282,
+                "PH": 1176,
+                "KP": 2157,
+                "PeP": 678,
+                "St": 1595,
+                "OP": 700,
+                "SoL": 154,
+                "EP": 1308,
+                "EK": 1925,
+                "KiL": 219,
+                "A": 832,
+                "LK": 78,
+                "InL": 86,
+                "EnL": 1
+            },
+            "source": "Laji.fi (Kastikka Ark)"
+        }
+    ]
+}
