@@ -10,6 +10,9 @@ Early build is still a bit rough around the edges:
 
 ![alt text](earlybuild.png)
 
+
+Code needs some clean-up, which will be underway as soon as all of the main functionality has been added.
+
 ## 3D
 
 3D models are being created in Blender. Then exported as GLTF and loaded using React Three Fiber (R3F).
