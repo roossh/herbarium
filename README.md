@@ -1,6 +1,14 @@
-# Herbarium (in 3D)
+# Herbarium (in 3D) (very early build)
 
 Just little something I have been working on for fun to combine programming and 3d modeling. I have always had a soft spot for old botanical illustrations (any scientific illustrations, truly) and creating a little herbarium that mimics older herbariums/plant atlases is a fun little side project.
+
+## What needs doing
+
+Currently there is no proper way for looking through the different plants, this functionality will be added in due time.
+
+Early build is still a bit rough around the edges:
+
+![alt text](earlybuild.png)
 
 ## 3D
 
@@ -14,7 +22,7 @@ As a current solution the visualisation is about the number of observations. Thi
 
 ## Additional information
 
-Also currently fetched by hand as I want to be able to trust the data I am gathering.
+Data is currently fetched by hand.
 
 ## Tech stack
 
@@ -25,4 +33,4 @@ D3.js<br/>
 ## Sources
 
 Species data is from Lajitietokeskus: Suomen Lajitietokeskus/FinBIF. http://tun.fi/HBF.98925 (haettu 30.12.2024).<br/>
-3D models by me
+3D model(s) by me
