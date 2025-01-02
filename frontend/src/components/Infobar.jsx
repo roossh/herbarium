@@ -66,14 +66,14 @@ const InfoBar = ({ plant }) => {
             .attr("font-style", "italic")
             .text("Typical flowering time")
             
-        //add conservation status graphic
-        const conStatusGraph = svgElement.selectAll("circle")
+        //add conservation status graphic - not yet functional
+        /*const conStatusGraph = svgElement.selectAll("circle")
             .data(conservationStatus)
             .enter()
             .append("circle")
                 .attr("cx", barWidth)
                 .attr("cy", 100)
-                .attr("r", 10)
+                .attr("r", 10)*/
 
     }, [])
 

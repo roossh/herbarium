@@ -9,8 +9,9 @@ const About = () => (
   <div className="about">
     <br/>
     <p>This is a little side project where I am attempting to collect information about various plants found in Finland and then make some 3D models. As a data enthusiast and biologist, there's also some data visualisations.</p><br/>
-    <h2>Some notes regarding the data</h2><br/>
-    <p>The data has been collected from <a href="https://www.laji.fi">Finnish Biodiversity Info Facility</a>, and so far I have only used the Kastikka Ark -observations.</p> <br/>
+    <h4>Some notes regarding the data</h4><br/>
+    <p>The data has been collected from <a href="https://www.laji.fi">Finnish Biodiversity Info Facility</a>, and so far I have only used the Kastikka Ark -observations.
+    The regions are based on <a href="https://fi.wikipedia.org/wiki/Suomen_luonnontieteelliset_maakunnat">biogeographical zones</a>, thus differing from the administrative regions typically depicted on maps.</p> <br/>
     
     <p>As the data is based on <i>observations</i> they cannot be used to truly determine the amount of particular species. Several things can affect the number of observations, including the population density of a specific area.</p>
   </div>
@@ -19,11 +20,11 @@ const About = () => (
 const PlantAtlas = ({ plants }) => {
   const rows = () => plants.map(plant =>
     <p>{plant.name}</p>)
-  return (
+  /*return (
     <div className="plant-atlas">
       {rows()}
     </div>
-  )
+  )*/
 }
 
 const App = () => {

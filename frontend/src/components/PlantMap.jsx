@@ -56,12 +56,23 @@ const PlantMap = ({ data, plant }) => {
 
         svgElement.append("text")
             .attr("class", "title")
-            .attr("x", 10)
-            .attr("y", 0)
+            .attr("x", 0)
+            .attr("y", 20)
             .attr("text-anchor", "start")
             .attr("font-size", "1.25rem")
             .attr("font-style", "italic")
             .text("Number of observations")
+
+        svgElement.append("text")
+            .attr("class", "source-info")
+            .attr("x", currentWidth)
+            .attr("y", currentHeight-5)
+            .attr("text-anchor", "end")
+            .attr("font-size", "1rem")
+            .attr("font-style", "italic")
+            .text(`Data from ${plant.source}`)
+
+        
 
       }, [])
 

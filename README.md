@@ -4,14 +4,16 @@ Just little something I have been working on for fun to combine programming and 
 
 ## What needs doing
 
-Currently there is no proper way for looking through the different plants, this functionality will be added in due time.
+Currently there is no proper way for looking through the different plants, this functionality will be added shortly.
 
-Early build is still a bit rough around the edges:
+Early build is still rough around the edges:
 
 ![alt text](earlybuild.png)
 
 
-Code needs some clean-up, which will be underway as soon as all of the main functionality has been added.
+Code needs some clean-up, which will be done as soon as rest of the main functionality has been added.
+
+Needs the conservation status visualisations added to the infobox.
 
 ## 3D
 

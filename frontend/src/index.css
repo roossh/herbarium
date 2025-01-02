@@ -3,13 +3,17 @@
 }
 
 body {
-  background: rgb(253, 243, 235);
+  background: rgb(255, 252, 250);
   font: 1rem sans-serif;	
 }
 
 .header {
   display: grid;
   color:rgb(15, 15, 15);
+}
+
+h2, h3 {
+  padding-left: 13.5vw;
 }
 
 .plant-info {
@@ -52,7 +56,6 @@ svg {
   background-color:  white;	
   border: 1px solid black;		
   border-radius: 2px;			
-  pointer-events: none;
 }
 
 a {
